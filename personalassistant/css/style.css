@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: block;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+input[type="text"], input[type="time"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.profile-btn {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Dark Theme */
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode header, .dark-mode footer {
+    background-color: #333;
+}
+
+.dark-mode section {
+    background-color: #2b2b2b;
+}
+
+.dark-mode button {
+    background-color: #555;
+}
+
+.dark-mode button:hover {
+    background-color: #777;
+}
+
+/* Gray Theme */
+body.gray-mode {
+    background-color: #d3d3d3;
+    color: #333333;
+}
+
+.gray-mode header{
+    background-color: #b0b0b0;
+    color: #333333;
+}
+
+.gray-mode footer{
+    background-color: #b0b0b0;
+    color: #333333;
+}
+
+.gray-mode button {
+    background-color: #808080;
+    color: white;
+}
+
+.gray-mode button:hover {
+    background-color: #616161;
+}
+
+input[type="text"].gray-mode,
+input[type="time"].gray-mode {
+    background-color: #f2f2f2;
+    border: 1px solid #888;
+    color: #333333;
+}
+
+button#toggle-theme.gray-mode {
+    background-color: #808080;
+    color: white;
+}
